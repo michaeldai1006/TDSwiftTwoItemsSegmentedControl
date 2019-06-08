@@ -12,6 +12,8 @@
 		06240AFD22AC3472006FEC6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06240AFB22AC3472006FEC6E /* Main.storyboard */; };
 		06240AFF22AC3474006FEC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06240AFE22AC3474006FEC6E /* Assets.xcassets */; };
 		06240B0222AC3474006FEC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06240B0022AC3474006FEC6E /* LaunchScreen.storyboard */; };
+		06240B0C22AC3508006FEC6E /* TDSwiftTwoItemsSegmentedControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06240B0A22AC3508006FEC6E /* TDSwiftTwoItemsSegmentedControl.xib */; };
+		06240B0D22AC3508006FEC6E /* TDSwiftTwoItemsSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06240B0B22AC3508006FEC6E /* TDSwiftTwoItemsSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		06240AFE22AC3474006FEC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06240B0122AC3474006FEC6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06240B0322AC3474006FEC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06240B0A22AC3508006FEC6E /* TDSwiftTwoItemsSegmentedControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDSwiftTwoItemsSegmentedControl.xib; sourceTree = "<group>"; };
+		06240B0B22AC3508006FEC6E /* TDSwiftTwoItemsSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDSwiftTwoItemsSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,22 @@
 		06240AF622AC3472006FEC6E /* TDSwiftTwoItemsSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
+				06240B0922AC34FD006FEC6E /* TDSwiftTwoItemsSegmentedControl */,
 				06240AF722AC3472006FEC6E /* AppDelegate.swift */,
 				06240AF922AC3472006FEC6E /* ViewController.swift */,
 				06240AFB22AC3472006FEC6E /* Main.storyboard */,
 				06240AFE22AC3474006FEC6E /* Assets.xcassets */,
 				06240B0022AC3474006FEC6E /* LaunchScreen.storyboard */,
 				06240B0322AC3474006FEC6E /* Info.plist */,
+			);
+			path = TDSwiftTwoItemsSegmentedControl;
+			sourceTree = "<group>";
+		};
+		06240B0922AC34FD006FEC6E /* TDSwiftTwoItemsSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				06240B0B22AC3508006FEC6E /* TDSwiftTwoItemsSegmentedControl.swift */,
+				06240B0A22AC3508006FEC6E /* TDSwiftTwoItemsSegmentedControl.xib */,
 			);
 			path = TDSwiftTwoItemsSegmentedControl;
 			sourceTree = "<group>";
@@ -122,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06240B0C22AC3508006FEC6E /* TDSwiftTwoItemsSegmentedControl.xib in Resources */,
 				06240B0222AC3474006FEC6E /* LaunchScreen.storyboard in Resources */,
 				06240AFF22AC3474006FEC6E /* Assets.xcassets in Resources */,
 				06240AFD22AC3472006FEC6E /* Main.storyboard in Resources */,
@@ -136,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06240AFA22AC3472006FEC6E /* ViewController.swift in Sources */,
+				06240B0D22AC3508006FEC6E /* TDSwiftTwoItemsSegmentedControl.swift in Sources */,
 				06240AF822AC3472006FEC6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
